@@ -1,10 +1,11 @@
 # uidk
 JavaScript Unique Id Generator
 
-# Usage
+# Install
 `npm i uidk`
+# Usage
 ```js
 const uidk = require('uidk');
 
-let newId = uidk();
+let newId = uidk(); // => 41a6549a1474a
 ```
