@@ -17,6 +17,10 @@ function incrementIndexTwo() {
 	indexTwo = (indexTwo + 1) % maxIndexTwoLength;
 }
 
+/**
+ * Generate Unique Id
+ * @returns {String}
+ */
 function getId() {
 	let time = Date.now();
 	time = '' + indexTwo + (parseInt(time) - indexOne) + indexOne;

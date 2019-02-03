@@ -1,13 +1,13 @@
 {
   "name": "uidk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript Guid Generator",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
   },
-  "keywords": [ "id", "unique id" ],
+  "keywords": [ "uidk", "id", "unique id" ],
   "author": "Krasimir Stefanov",
   "license": "MIT"
 }
